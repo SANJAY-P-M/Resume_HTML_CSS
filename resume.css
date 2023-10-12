@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Lora',sans-serif;
 }
 header{
     background-color: #DDD0D1;
@@ -9,16 +10,24 @@ header{
 aside{
     width: 35%;
     background-color: #B39E9F;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
     margin-left: 16px;
     position: absolute;
     top: 0px;
+    color: white
 }
-aside img{
+#profile-pic{
     border-radius: 50%;
     border: 3px solid white;
     width: 75%;
+    margin-bottom: 100px;
+}
+#profile{
+    margin: 0px 30px 30px 30px;
+}
+/* giving same effect to svg logo */
+#contact i,#contact #git-logo{
+    margin-top: 10px;
 }
