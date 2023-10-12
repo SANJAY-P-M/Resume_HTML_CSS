@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: #DDD0D1;
+    width: 100%;
+    height: 350px;
+}
+aside{
+    width: 35%;
+    background-color: #B39E9F;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16px;
+    position: absolute;
+    top: 0px;
+}
+aside img{
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 75%;
+}
