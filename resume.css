@@ -11,7 +11,7 @@ aside{
     background-color: #B39E9F;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     margin-left: 16px;
     position: absolute;
     top: 0px;
@@ -39,11 +39,31 @@ aside{
 }
 
 main{
-    margin-left: 300px;
+    margin-left: 40%;
 }
 
 /* education table */
-td,th{
+#education td,th{
     border: 2px solid black;
+    padding: 20px;
 }
 
+#education{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+/* description list */
+dt{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+dd{
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+/* skills */
+#skills tr td{
+    padding-right: 20px;
+}
